@@ -1,0 +1,462 @@
+
+.login{
+    background-color:#4484CE;
+    padding-top:50px;
+    padding-bottom:30px;
+    color:inherit;
+}
+
+.create {
+  background-color: #F19F4D;
+  padding-top:50px;
+  padding-bottom:10px;
+  color:inherit;
+}
+
+.guest {
+  background-color: #6B7A8F;
+  padding-top:50px;
+  padding-bottom:120px;
+  color:inherit;
+}
+
+.company {
+  background-color: #F7C331;
+  padding-top:50px;
+  padding-bottom:30px;
+  color:inherit;
+}
+
+.grow {
+  border-radius: 5px;
+  height: 150px;
+  width: 23%;
+  margin: 0% 1% 0% 1%;
+  float: left;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+.grow:hover {
+  height: 450px;
+  margin-bottom: 2%;
+}
+
+/*CREATE ACCOUNT GROW */
+.growCrtAct {
+  border-radius: 5px;
+  height: 150px;
+  width: 23%;
+  margin: 0% 1% 0% 1%;
+  float: left;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+.growCrtAct:hover {
+  height: 880px;
+  margin-bottom: 2%;
+}
+
+.growGuest {
+  border-radius: 5px;
+  height: 150px;
+  width: 23%;
+  margin: 0% 1% 0% 1%;
+  float: left;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+.growGuest:hover {
+  height: 600px;
+  margin-bottom: 2%;
+}
+
+body
+{
+   background-color: #EFEFEF;
+   color:white;
+}
+
+
+
+p.form-title
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+form
+{
+    margin: 0 auto;
+}
+
+/**LOGIN CSS**/
+
+form.login input[type="text"], form.login input[type="password"], form.login input[type="email"]{
+    width: 70%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.login input[type="submit"]
+{
+    width: 30%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.login input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+
+form.login label, form.login a
+{
+    width: 70%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+form.login a
+{
+    transition: color 0.5s ease;
+}
+
+form.login a:hover
+{
+    width: 50%;
+    color: #D9D9D9;
+}
+
+.pr-wrap
+{
+    width: 50%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.button {
+    background-color: #4484CE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #D9D9D9;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #D9D9D9;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #D9D9D9;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #D9D9D9;
+}
+
+p.form-text{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*CREATE AN ACCOUNT CSS*/
+
+form.create input[type="text"], form.create input[type="password"], form.create input[type="email"]{
+    width: 70%;
+    margin: 0;
+    padding: 2px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.create input[name=createPhoneFirst], form.create input[name=createPhoneSecond]{
+    width: 12%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.create input[name=month]{
+    width: 8%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.create input[name=createPhoneThird]{
+    width: 12%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.create input[name=createBirthday]{
+    width: 26%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.create input[type="submit"]
+{
+    width: 30%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    padding-bottom: 2px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+/*CONTINUE AS GUEST CSS*/
+
+form.guest input[type="text"], form.guest input[type="email"]{
+    width: 70%;
+    margin: 0;
+    padding: 2px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.guest input[name=guestPhoneFirst], form.guest input[name=guestPhoneSecond]{
+    width: 12%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.guest input[name=guestPhoneThird]{
+    width: 15%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.guest input[name=createBirthday]{
+    width: 28%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.guest input[type="submit"]
+{
+    width: 30%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+/*COMPANY LOGIN CSS*/
+
+form.company input[type="text"], form.company input[type="password"], form.company input[type="email"]{
+    width: 70%;
+    margin: 0;
+    padding: 5px 5px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.company input[type="submit"]
+{
+    width: 30%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.company input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+form.company label, form.company a
+{
+    width: 70%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+form.company a
+{
+    transition: color 0.5s ease;
+}
+
+form.company a:hover
+{
+    width: 50%;
+    color: #D9D9D9;
+}
+
+/*SUBMIT BUTTON*/
+
+.submitButton {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 20px;
+    height: 25px;
+}
+
+body
+{
+    background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,123 @@
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+/*SUBMIT BUTTON*/
+
+body
+{
+    background: white;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.submitButton {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: 99%;
+    height: 25px;
+}
+
+.btn{
+    padding: 25px 35px;
+    border-radius: 0;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.btn:before{
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.btn:after{
+    content: "";
+    display:block;
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.green{
+    border: 1px solid #00756c;
+    color:#00756c;
+}
+.green:hover:before,
+.green:hover:after,
+.green:hover .box:before,
+.green:hover .box:after{
+    background: #00756c;
+    width: 50%;
+    height:50%;
+}
+.box:before{
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.box:after{
+    content: "";
+    display:block;
+    position: absolute;
+    bottom:0;
+    right:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.btn:hover{
+    color:#fff;
+}
+.green{
+    border: 1px solid #00756c;
+    color:#00756c;
+}
+.green:hover:before,
+.green:hover:after,
+.green:hover .box:before,
+.green:hover .box:after{
+    background: #00756c;
+    width: 50%;
+    height:50%;
+}
+
